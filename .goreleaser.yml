@@ -1,0 +1,33 @@
+before:
+  hooks:
+    # You may remove this if you don't use go modules.
+    - go mod download
+builds:
+  - main: main.go
+    binary: uncomplicated-registry
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - windows
+      - darwin
+    ldflags: |
+      -s -w
+        -X github.com/MichielBijland/uncomplicated-registry/internal/version.version={{.Version}}
+        -X github.com/MichielBijland/uncomplicated-registry/internal/version.commit={{.Commit}}
+        -X github.com/MichielBijland/uncomplicated-registry/internal/version.date={{.CommitDate}}
+        -extldflags '-static'
+archives:
+  - id: default
+    name_template: >-
+      {{ .ProjectName }}_
+      {{- title .Os }}_
+      {{- if eq .Arch "amd64" }}x86_64
+      {{- else if eq .Arch "386" }}i386
+      {{- else }}{{ .Arch }}{{ end }}
+checksum:
+  name_template: "checksums.txt"
+snapshot:
+  name_template: "{{ .Tag }}-next"
+changelog:
+  skip: false
