@@ -15,7 +15,7 @@ require (
 	github.com/rs/zerolog v1.29.1
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.15.0
+	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.3
 	golang.org/x/sync v0.2.0
 )
@@ -51,7 +51,7 @@ require (
 	github.com/mattn/go-isatty v0.0.18 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
+	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
