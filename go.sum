@@ -104,8 +104,8 @@ github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20191125211704-12ad95a8df72/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
-github.com/gofiber/contrib/fiberzerolog v0.1.1 h1:F+kC45Gbc00MjetHOEdogFDpQEuKZOlbT2ffrgV7yAM=
-github.com/gofiber/contrib/fiberzerolog v0.1.1/go.mod h1:UaKalYQETawA9L9AIyjEXV/Ep+xuCSVHiVPNAfqlToE=
+github.com/gofiber/contrib/fiberzerolog v0.1.2 h1:RE2O0mesc8xmqU+bRv0iiHTwunJeAwPDPVPIDtxdyfY=
+github.com/gofiber/contrib/fiberzerolog v0.1.2/go.mod h1:/mIB3npwdcXUEU3IHWVmU6+4My4SIqcmFg6JkD/56+c=
 github.com/gofiber/fiber/v2 v2.46.0 h1:wkkWotblsGVlLjXj2dpgKQAYHtXumsK/HyFugQM68Ns=
 github.com/gofiber/fiber/v2 v2.46.0/go.mod h1:DNl0/c37WLe0g92U6lx1VMQuxGUQY5V7EIaVoEsUffc=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=

@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.18.25
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.11.67
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.33.1
-	github.com/gofiber/contrib/fiberzerolog v0.1.1
+	github.com/gofiber/contrib/fiberzerolog v0.1.2
 	github.com/gofiber/fiber/v2 v2.46.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.6.0
