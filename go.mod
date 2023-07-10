@@ -7,8 +7,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.18.25
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.11.67
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.33.1
-	github.com/gofiber/contrib/fiberzerolog v0.1.1
-	github.com/gofiber/fiber/v2 v2.46.0
+	github.com/gofiber/contrib/fiberzerolog v0.1.3
+	github.com/gofiber/fiber/v2 v2.47.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.6.0
 	github.com/pkg/errors v0.9.1
@@ -48,7 +48,7 @@ require (
 	github.com/klauspost/compress v1.16.5 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.18 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
@@ -66,7 +66,7 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.47.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/sys v0.9.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
